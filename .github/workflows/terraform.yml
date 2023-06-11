@@ -3,10 +3,10 @@ name: 'Terragrunt CI'
 on:
   push:
     branches:
-    - 'feature-*'
+    - '*'
   pull_request:
     branches:
-    - 'feature-*'
+    - '*'
 
 jobs:
   Terragrunt:
