@@ -7,7 +7,7 @@ dependency "vpc" {
 }
 
 terraform {
-  source = "https://github.com/Go-Pomegranate/assesment-infrastructure-modules.git//ec2"
+  source = "github.com/Go-Pomegranate/assesment-infrastructure-modules.git//ec2"
 }
 
 inputs = {
