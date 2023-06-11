@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:Go-Pomegranate/assesment-infrastructure-modules.git//s3"
+  source = "https://github.com/Go-Pomegranate/assesment-infrastructure-modules.git//s3"
 }
 
 inputs = {
