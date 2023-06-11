@@ -7,11 +7,11 @@ dependency "vpc" {
 }
 
 terraform {
-  source = "/Users/pantere/Repositories/local/intuitive-infrastructure-modules/ec2"
+  source = "github.com/Go-Pomegranate/assesment-infrastructure-modules.git//ec2"
 }
 
 inputs = {
-    instance_count    = 2
+    instance_count    = 3
     ec2_instance_name = "app"
     instance_type     = "t2.micro"
     ami_id            = "ami-0abcdef1234567890"
@@ -28,7 +28,7 @@ inputs = {
     ebs_volume_size   = 30
     # Made just to test faster, normally should be false
     ebs_delete_on_termination = true
-    tag_environment   = "dev"
+    tag_environment   = "test"
     custom_tags       = {
         "Owner" = "username"
         "CostCenter" = "xyz"

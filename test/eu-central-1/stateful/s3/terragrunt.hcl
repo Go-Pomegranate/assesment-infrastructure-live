@@ -3,10 +3,10 @@ include "root" {
 }
 
 terraform {
-  source = "/Users/pantere/Repositories/local/intuitive-infrastructure-modules/s3"
+  source = "github.com/Go-Pomegranate/assesment-infrastructure-modules.git//s3"
 }
 
 inputs = {
-    bucket_name = "intuitive-bucket-dev"
+    bucket_name = "assesment-123-bucket-test"
     aws_region = "eu-central-1"
 }
