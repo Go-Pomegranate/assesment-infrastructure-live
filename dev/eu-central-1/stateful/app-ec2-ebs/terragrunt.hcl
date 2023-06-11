@@ -11,7 +11,7 @@ terraform {
 }
 
 inputs = {
-    instance_count    = 3
+    instance_count    = 2
     ec2_instance_name = "app"
     instance_type     = "t2.micro"
     ami_id            = "ami-0abcdef1234567890"
