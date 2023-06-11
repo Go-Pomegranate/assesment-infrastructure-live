@@ -46,7 +46,7 @@ jobs:
     - name: Terragrunt Init Dev
       run: |
         cd dev/eu-central-1
-        terragrunt init --terragrunt-non-interactive
+        terragrunt run-all init --terragrunt-non-interactive
 
     - name: Terragrunt Plan Dev
       run: |
