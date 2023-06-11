@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "/Users/pantere/Repositories/local/intuitive-infrastructure-modules/vpc"
+  source = "github.com/Go-Pomegranate/assesment-infrastructure-modules.git//vpc"
 }
 
 inputs = {
